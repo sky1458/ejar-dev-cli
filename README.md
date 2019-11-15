@@ -1,21 +1,21 @@
 # 快速生成一个模拟服务器
 
 
-## Install
+## 安装（Install）
 ```bash
 yarn global add ejar-dev-cli
 or
 npm install -g ejar-dev-cli
 ```
 
-## generate
+## 生成模板（generate）
 ```bash
 ejar-dev-cli create [name]
 or
 ejar-dev-cli g [name]
 ```
 
-## Usage
+## 使用（Usage）
 ```bash
 cd [name]
 yarn
