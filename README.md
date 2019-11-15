@@ -23,7 +23,7 @@ or
 npm install
 ```
 
-## Quick Start
+## 快速开始（Quick Start）
 
 - 在mock文件夹下新建 js 文件
 - 编写模拟接口
