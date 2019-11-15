@@ -1,0 +1,3 @@
+{
+  "watch" : ["./ejar.mock.js", "./mock/*.js", "./generator.js"]
+}
