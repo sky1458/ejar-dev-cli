@@ -56,11 +56,4 @@ yarn start 端口号
 - mockjs 使用方式请移步 [mockjs 文档](http://mockjs.com)
 
 ### 注意
-- 新建接口模块后，请务必 export
 - 新增接口后，服务器会重新启动，会有 200ms-3s 左右的启动间隔
-
-```bash
-yarn start
-or
-npm run start
-```
