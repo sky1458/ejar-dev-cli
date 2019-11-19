@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+// 后期可更改为可配置headers选项
 const fs = require('fs');
 const path = require("path");
 const chalk = require('chalk');
@@ -12,7 +12,7 @@ exports.run = async function (args) {
   }
   // 创建项目
   await fs.mkdirSync(name);
-  
+
   // 复制 package.json
   const packageJSON = path.join(__dirname,"../teamplate/package.json");
   const packageDir = path.join(cmdPath, `${name}/package.json`)
@@ -68,6 +68,7 @@ exports.run = async function (args) {
   console.log(chalk.green("npm run start"),chalk.yellow("or"),chalk.green("yarn start"))
   console.log("")
   console.log(chalk.yellow("更多使用方法，请查看"),chalk.green("README.md"))
+
 };
 
 
