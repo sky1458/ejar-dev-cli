@@ -1,7 +1,7 @@
 {
   "name": "ejar-dev-cli",
-  "version": "0.0.3",
-  "description": "",
+  "version": "0.0.4",
+  "description": "developer server",
   "main": "index.js",
   "bin": {
     "ejar-dev-cli": "./bin/ejar-dev.js"

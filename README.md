@@ -10,7 +10,7 @@ npm install -g ejar-dev-cli
 
 ## 生成模板（generate）
 ```bash
-ejar-dev-cli create [name]
+ejar-dev-cli generate [name]
 or
 ejar-dev-cli g [name]
 ```

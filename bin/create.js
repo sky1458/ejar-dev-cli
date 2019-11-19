@@ -2,7 +2,7 @@
 const program = require('commander');
 const generate = require('../src/generate');
 program
-  .command('create')
+  .command('generate')
   .description('quick generate your file')
   .alias('g')
   .action(function (_, name) {
