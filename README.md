@@ -46,7 +46,9 @@ export default {
 ## 选项
 - 更改启动端口号 ( 默认启动在 9527 )
 ```bash
-yarn start 端口号
+yarn start [PORT]
+or
+npm run start [PORT]
 ```
 ### mock数据
 - mockjs 使用方式请移步 [mockjs 文档](http://mockjs.com)
