@@ -3,15 +3,11 @@
 
 ## 安装（Install）
 ```bash
-yarn global add ejar-dev-cli
-or
 npm install -g ejar-dev-cli
 ```
 
 ## 生成模板（generate）
 ```bash
-ejar-dev-cli generate [name]
-or
 ejar-dev-cli g [name]
 ```
 
