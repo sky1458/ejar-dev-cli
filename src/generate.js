@@ -39,7 +39,7 @@ exports.run = async function (args) {
   // 复制README.md
   const md = path.join(__dirname,"../teamplate/README.md");
   const mdDir = path.join(cmdPath, `${name}/README.md`)
-  await fs.copyFileSync(main,mdDir)
+  await fs.copyFileSync(md,mdDir)
   console.log(chalk.green(mdDir))
 
   // 复制README.md
